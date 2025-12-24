@@ -9,10 +9,8 @@
 Neural-GARCH 模型结合了传统 GARCH 模型的统计结构与神经网络的非线性建模能力。  
 不同于传统 GARCH 的线性参数形式，Neural-GARCH 使用神经网络来刻画条件方差的递归演化：
 
-\[
-\sigma_t^2
-= f_\theta\bigl(r_{t-1}^2,\ \sigma_{t-1}^2\bigr)
-\]
+![formula](https://latex.codecogs.com/png.latex?\sigma_t^2=f_\theta(r_{t-1}^2,\sigma_{t-1}^2))
+
 
 其中：
 
