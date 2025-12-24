@@ -43,4 +43,3 @@ Neural-GARCH 模型结合了传统 GARCH 模型的统计结构与神经网络的
 ```bash
 pip install -r requirements.txt
 
-## 联系方式
